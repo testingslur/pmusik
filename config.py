@@ -15,9 +15,9 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Iamuput")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Punya_Alby")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "NezukoMusicRobot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "albymusicbot")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -40,7 +40,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1843616228").split())
+    map(int, getenv("OWNER_ID", "5089916692").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -52,7 +52,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/iamuput/NezukoMusic",
+    "https://github.com/testingslur/pmusik",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -61,9 +61,9 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Flukosaa")
+    "SUPPORT_CHANNEL", "https://t.me/ruangprojects")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/UputtSupport")
+    "SUPPORT_GROUP", "https://t.me/mt_force")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
