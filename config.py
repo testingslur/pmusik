@@ -154,8 +154,8 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = "https://telegra.ph//file/bbdab35972d61a0cae983.jpg"
-PING_IMG_URL = "https://telegra.ph//file/e14488acaa70ae35d2506.jpg"
+START_IMG_URL = "https://telegra.ph//file/9246a6b587d88e493ced0.jpg"
+PING_IMG_URL = "https://telegra.ph//file/9246a6b587d88e493ced0.jpg"
 PLAYLIST_IMG_URL = "https://telegra.ph//file/dfca5abcdca4dea7ec09c.jpg"
 GLOBAL_IMG_URL = "https://telegra.ph//file/bbdab35972d61a0cae983.jpg"
 STATS_IMG_URL = "https://telegra.ph//file/6be6db8050a16fe945184.jpg"
